@@ -1,0 +1,10 @@
+main{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    margin: 20px;
+}
+img{
+    margin: 20px;
+}

@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+main div{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+#titulo{
+    margin: 20px;
+}
+main div h3{
+    margin: 20px;
+}
+main div img{
+    margin: 20px;
+}

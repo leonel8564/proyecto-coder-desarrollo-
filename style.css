@@ -1,0 +1,108 @@
+body{
+    height: 100%;
+    margin-inline: 22%;
+    background-color: rgb(226, 226, 226);
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+}
+header{
+    margin-top: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+nav div{
+    margin: 20px;
+}
+main{
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-areas: 
+    "imagen imagen"
+    "texto form";
+}
+#imgdiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-area: imagen;
+    display: flex;
+    justify-content: center;
+}
+#imafon{
+    width: 100%;
+}
+.texto{
+    grid-area: texto;
+    padding: 20px;
+}
+.formulario{
+    grid-area: form;
+    padding: 20px;
+}
+#textform{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form div input{
+    margin: 2px;
+    height: 30px;
+    width: 200px;
+}
+#telefono{
+    width: 404px;
+}
+#consulta{
+    width: 404px;
+    height: 200px;
+}
+#botone{
+    margin: 10px;   
+}
+#botonenviar{
+    height: 40px;
+    width: 80px;
+}
+
+h2,h3,h4{
+    font-weight: normal;
+}
+footer{
+    background-color:  white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    margin: 0px;
+}
+#conta{
+    margin: 5px;
+}
+#copy{
+    margin: 5px;
+}
+.imli{
+    height: 30px;
+    width: 30px;
+}
