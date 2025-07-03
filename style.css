@@ -106,3 +106,38 @@ p{
     height: 30px;
     width: 30px;
 }
+
+#Mainejemplos{
+    display: flex;
+    justify-content: space-between;
+}
+.H3ejemplos{
+    margin: 20px;
+}
+.imagenejemplos{
+    margin: 20px;
+}
+#mainpreg{
+    display: flex;
+    flex-direction: column;
+
+}
+.divpreg{
+    margin: 20px;
+}
+#maintip{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.divtip{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+#titulotip{
+    margin: 20px;
+}
+.tipsep{
+    margin: 20px;
+}
