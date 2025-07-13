@@ -45,7 +45,20 @@ main #imgdiv #imafon {
   width: 100%;
 }
 
+#mainnos {
+  display: flex;
+  flex-direction: column;
+}
+
+#imgamba {
+  width: 60%;
+  height: 60%;
+}
+
 .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   grid-area: texto;
   padding: 20px;
 }
